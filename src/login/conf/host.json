@@ -1,0 +1,8 @@
+{
+  "version": "v2",
+  "mode": "test",
+  "login": {
+    "username": "admin",
+    "password": "admin"
+  }
+}
