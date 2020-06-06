@@ -16,7 +16,7 @@ func TestHandle(res http.ResponseWriter, req *http.Request) {
 		res.Write([]byte("Login Fail,Please Try Again!"))
 		//}
 	} else {
-		res.Write([]byte("test for web : " + entry_name + "	" + entry_password))
+		_, _ = res.Write([]byte("test for web : " + entry_name + "	" + entry_password))
 	}
 }
 
