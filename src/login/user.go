@@ -24,7 +24,8 @@ func main() {
 	port := "80"
 	//log.Printf(os.Getwd())
 	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {
-		t, err := template.ParseFiles("./html/login.html")
+		t, err := template.ParseFiles("./html/login2.html")
+		//t, err := template.ParseFiles("./web/index.html")
 		//t, err :=template.ParseFiles("C:\\Users\\huawei\\go\\src\\login\\web\\index.html")
 		if err != nil {
 			log.Println("err")
